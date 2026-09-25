@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "../styles/ContainerApp.css";
+import "../styles/Forms.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
+
 function ContainerApp() {
 const [ciudad, setCiudad] = useState('')
 
@@ -13,13 +17,20 @@ const [ciudad, setCiudad] = useState('')
             type="text"
             placeholder="Buscar Ciudad" 
             value={ciudad}
-            onChange={(e)=> setCiudad(e.target.value)}/>
-            <button>Buscar</button>
+            onChange={(e)=> setCiudad(e.target.value)}
+            className="input-cities"/>
+            <button className="btn-buscar">
+              <FontAwesomeIcon icon={faMagnifyingGlass}/>
+            </button>
           </form>
         </div>
         <div className="container-location">
-          <select name="paises" id="pais">
-            
+          <select name="paises" id="pais" className="select-pais">
+            <option>A</option>
+            <option>A</option>
+            <option>A</option>
+            <option>A</option>
+
           </select>
         </div>
         <div className="container-time">
