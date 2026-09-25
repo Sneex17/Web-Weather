@@ -2,77 +2,82 @@
     display: flex;
     flex-direction: column;
     background: #044978;
-background: linear-gradient(35deg,rgba(4, 73, 120, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(5, 23, 52, 1) 100%);
+    background: linear-gradient(35deg, rgba(4, 73, 120, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(5, 23, 52, 1) 100%);
     flex: 1;
     min-width: 0;
     gap: 10px;
     padding: 10px;
 }
 
-.sub-container{
+.sub-container {
     display: flex;
     width: 100%;
     height: auto;
-    background-color: green;
     gap: 10px;
 }
+
 /*Header de busqueda*/
-.container-buscar{
+.container-buscar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto;
-    background-color: brown;
+    width: 500px;
+    height: 50px;
+    background-color: #0E284C;
+    border-radius: 25px;
+    border: 3px solid #294a77;
 
 }
-.container-location{
+
+.container-location {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 400px;
     height: auto;
-    background-color: brown;
 }
-.container-time{
-    width: 350px;
+
+.container-time {
+    width: 400px;
     height: auto;
     background-color: brown;
 }
+
 /*cards resumen y mapa del clima*/
-.resumen-weather{
+.resumen-weather {
     width: 100%;
     height: 30vh;
     background-color: brown;
 }
 
-.map-weather{
+.map-weather {
     width: 100%;
     height: 30vh;
     background-color: blue;
 }
+
 /*Resumen de la temperatura*/
-.temperatura{
+.temperatura {
     width: 100%;
     height: 25vh;
     background-color: coral;
 }
-.temperatura-detalles{
+
+.temperatura-detalles {
     width: 100%;
     height: 25vh;
     background-color: cornflowerblue;
 }
+
 /*Resumen de los 7 dias*/
-.resumen-day{
+.resumen-day {
     width: 100%;
     height: 20vh;
     background-color: cadetblue;
 
 }
 
-.card-radio{
+.card-radio {
     border-radius: 15px;
 }
-
-
